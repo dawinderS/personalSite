@@ -68,6 +68,16 @@ input, select, textarea {
 
 /* Basic */
 
+  .scrollya {
+    text-decoration: underline;
+    /* padding-bottom: 40px; */
+    /* color: black; */
+  }
+
+  .titletext {
+    font-size: 18px;
+  }
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -132,7 +142,7 @@ input, select, textarea {
 	.headshot > img {
 		border: 2px solid white;
 		/* border-radius: 50%; */
-    width: 150px;
+    width: 110px;
 		justify-content: center;
 	}
 	a {
