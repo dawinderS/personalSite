@@ -78,6 +78,17 @@ input, select, textarea {
     font-size: 18px;
   }
 
+  #aboutmepic {
+    display: flex;
+
+  }
+
+  #one img {
+    height: 225px;
+    width: 168.75px;
+    border: 2px solid white;
+  }
+
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -2837,7 +2848,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #14718d;
 			color: #c8ece9;
 		}
 
@@ -2891,7 +2902,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #14718d;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -3371,7 +3382,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #14718d;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
