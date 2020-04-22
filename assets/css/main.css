@@ -75,6 +75,71 @@ input, select, textarea {
     /* color: black; */
   }
 
+@media screen and (max-width: 800px) {
+  #who3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #who3 img {
+    width: 140px;
+  }
+
+  #who3 a:hover {
+    color: black;
+  }
+
+  #who4 {
+    font-size: 13px;
+  }
+
+  #who4 a:hover {
+    cursor: pointer;
+    color: black;
+  }
+
+  .connect-list {
+    display: flex;
+    flex-direction: row;
+    /* align-items: space-evenly;
+    justify-content: space-evenly; */
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  #iconsize {
+    font-size: 16px;
+  }
+
+  #background {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+
+  #education {
+    font-size: 12px;
+    line-height: 1.9;
+  }
+
+  #education span {
+    font-style: italic;
+    line-height: 1.9;
+  }
+
+  #education strong {
+    font-size: 14px;
+  }
+
+  .educ {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
   #who1 {
     display: flex;
     flex-direction: row;
@@ -141,6 +206,7 @@ input, select, textarea {
   #education strong {
     font-size: 14px;
   }
+}
 
   .titletext {
     font-size: 18px;
