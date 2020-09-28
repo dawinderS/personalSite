@@ -28,7 +28,7 @@
 											<li><a href="#one">About</a></li>
 											<li><a href="#two">Portfolio</a></li>
 											<li><a href="#three">Skills</a></li>
-                      <li><a href="#four">Who I Am</a></li>
+                      <!-- <li><a href="#four">Who I Am</a></li> -->
                       <li><a href="#cta">Contact Me</a></li>
                       <li><a href="./Dawinder_Singh_Resume.pdf" target="_blank" download>Download Resume</a></li>
 										</ul>
@@ -65,23 +65,34 @@
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
-              <img src="./images/sfback1.JPG">
+              <!-- <img src="./images/sfback1.JPG"> -->
 							<header class="major">
                 <!-- <div class="headshot"><img src="./images/profilePic.JPG"></div> -->
                 <!-- <br> -->
 
                 <h2>Hey! I'm Dawinder.</h2>
                 <div id='aboutmepic'>
-                  <p>
-                  I'm passionate about finding creative solutions to complex problems
-                  and being a moving part of innovation. As a full-stack developer, I enjoy
-                  applying that passion towards building dynamic, responsive web applications
-                  employing tools such as React, Redux, JavaScript, Ruby on Rails, MERN Stack
+                  <p class="aligntext">
+                  <!-- I'm passionate about finding creative solutions to complex problems
+                  and being a moving part of innovation. As a software engineer, 
+                  I enjoy applying that passion towards tackling technical problems, 
+                  collaborating on strategies, hunting for bugs, and building dynamic 
+                  web applications.  -->
+                  
+                  I'm a coding enthusiast with a developed passion for solving complex problems in efficient and unique ways. As a
+                  software engineer, I enjoy applying that passion towards tackling technical problems, collaborating on strategies,
+                  hunting for bugs, and building applications.
+                  
+                  Going from an uninspired high school kid to a curious and driven first-gen college grad, I now strive to further advance
+                  my skills, make simple simpler, and be a moving part of innovation.
+                  So far I have built dynamic, responsive web applications
+                  employing tools such as React, Redux, JavaScript, GraphQL, Ruby, Rails, 
+                  Node, Express, PostgreSQL, MongoDB,
                   and <a class="scrollya" href="#three">more</a>.
                   </p>
-                  <p>
+                  <p id="noem">
                   Scroll down to see my <a class="scrollya" href="#two">portfolio</a> / <a class="scrollya" href="#three">skills</a>, 
-                  and <a class="scrollya" href="#four">learn more about me</a>!
+                  or <a class="scrollya" href="#cta">chat with me</a>
                   </p>
                 </div>
                 
@@ -96,18 +107,29 @@
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><a target="_blank" href="https://venmoplus.herokuapp.com/"><img src="images/venmopic.jpg" alt="" /></a></div>
+							<div class="image"><a target="_blank" href="https://instaapost.netlify.app/#/"><img id="imghover" src="images/instapics.png" alt="" /></a></div>
 							<div class="content">
-								<h2>Venmo+</h2>
-								<p>Venmo+ is a digital wallet inspired by Venmo that allows users to quickly make and share payments with friends. Developed with
-                additional and more user-friendly functionality and more modern touch in regards to design.
+								<h2>Instapost</h2>
+								<p>A photo sharing & messaging social networking service inspired by Instagram where users can share photos
+                with friends, explore photos from around the world, and privately message each other in real-time.
                 </p>
-                <p>Tech Stack: Ruby on Rails, React/Redux, JavaScript, PostgreSQL</p>
-								<a target="_blank" href="https://venmoplus.herokuapp.com/">Live</a> | <a href="https://github.com/dawinderS/VenmoPlus" target="_blank">Github</a>
+                <p>Tech Stack: GraphQL, React/Redux, JavaScript, PostgreSQL</p>
+								<a target="_blank" href="https://instaapost.netlify.app/#/">Live</a> | <a href="https://github.com/dawinderS/Instapost" target="_blank">Github</a>
               </div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><a target="_blank" href="https://testzoo.herokuapp.com/"><img src="images/testzoo.png"
+							<div class="image"><a target="_blank" href="https://dawinders.github.io/SortingAlgos/"><img id="imghover" src="images/sortingpic.gif" alt="" /></a></div>
+							<div class="content">
+								<h2>Sorting Algos 101</h2>
+								<p>A visualization of sorting algorithms with explanations and pseudocode. 
+                  Explanations include pros/cons, O(n) times, basic summarization, and additional links.
+                </p>
+                <p>Tech Stack: Data Structures & Algorithms, HTML5, CSS3</p>
+								<a target="_blank" href="https://dawinders.github.io/SortingAlgos/">Live</a> | <a href="https://github.com/dawinderS/SortingAlgos" target="_blank">Github</a>
+              </div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><a target="_blank" href="https://testzoo.herokuapp.com/"><img id="imghover" src="images/testzoo.png"
 										alt="" /></a></div>
 							<div class="content">
 								<h2>TestZoo</h2>
@@ -119,7 +141,7 @@
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><a target="_blank" href="https://dawinders.github.io/StatsDontLie/"><img src="images/statspic.png"
+							<div class="image"><a target="_blank" href="https://dawinders.github.io/StatsDontLie/"><img id="imghover" src="images/statspic.png"
 										alt="" /></a></div>
 							<div class="content">
 								<h2>Stats Don't Lie</h2>
@@ -148,6 +170,10 @@
                   <br>
                   <h3>React</h3>
                 </li>
+                <li>
+                  <i><span class="iconify" data-icon="simple-icons:redux" data-inline="false"></span></i>
+                  <h3>Redux</h3>
+                </li>
 								<li>
 									<i class="devicon-ruby-plain"></i>
 									<br>
@@ -168,22 +194,38 @@
                 </li>
                 <li>
                   <i class="devicon-nodejs-plain"></i>
-                  <h3>node.js</h3>
+                  <h3>Node.js</h3>
+                </li>
+                <li>
+                  <i class="devicon-mongodb-plain"></i>
+                  <br>
+                  <h3>Express.js</h3>
+                </li>
+                <li>
+                  <i><span class="iconify" data-icon="simple-icons:graphql" data-inline="false"></span></i>
+                  <h3>GraphQL</h3>
                 </li>
 								<li>
 									<i class="devicon-postgresql-plain"></i>
-									<br>
 									<h3>PostgreSQL</h3>
 								</li>
-                
 								<li>
-                  <!-- <span class="iconify" data-icon="simple-icons:redux" data-inline="false"></span> -->
-									<i><span class="iconify" data-icon="simple-icons:redux" data-inline="false"></span></i>
-									<h3>Redux</h3>
-								</li>
+									<i class="devicon-mongodb-plain"></i>
+									<br>
+									<h3>MongoDB</h3>
+                </li>
+                <li>
+                  <i class="devicon-jquery-plain"></i>
+                  <br>
+                  <h3>jQuery</h3>
+                </li>
                 <li>
                   <i class="devicon-git-plain"></i>
                   <h3>Git</h3>
+                </li>
+                <li>
+                  <i class="devicon-amazonwebservices-original"></i>
+                  <h3>AWS</h3>
                 </li>
                 
                 <!-- <li>
@@ -195,7 +237,7 @@
           </section>
 
 
-          <section id="four" class="wrapper style1 special">
+          <!-- <section id="four" class="wrapper style1 special">
             <div class="inner">
               <header class="major">
                 <h2>Who I Am</h2>
@@ -245,7 +287,7 @@
                       <a target="_blank" href="https://angel.co/dawinder-singh"><i class="fab fa-angellist" id='iconsize'></i>/AngelList</a>
                     </div>  
                     <div id=who4>
-                      <!-- <a target="_blank" href="http://github.com/dawinderS"><i class="fab fa-github" id='iconsize'></i>/Github</a> -->
+                      <a target="_blank" href="http://github.com/dawinderS"><i class="fab fa-github" id='iconsize'></i>/Github</a>
                       <a href="#cta">[ Or message me ↓ ]</a>
                     </div>
                   </div>
@@ -254,7 +296,7 @@
               </header>
           
             </div>
-          </section>
+          </section> -->
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
